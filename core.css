@@ -289,7 +289,7 @@
                     z-index: -1;
                 }
 
-                #app-mount .voiceUser_cdc675 .content_cdc675:hover {background-color: transparent;}
+                #app-mount .voiceUser_cdc675 .content_cdc675:hover {background-color: green;}
                 #app-mount .voiceUser_cdc675 {
                     transition: margin 0.2s; 
                     transition-timing-function: ease-in-out; 
