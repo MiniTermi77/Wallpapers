@@ -278,7 +278,7 @@
                 #app-mount .avatarSpeaking_cdc675 {box-shadow: 0 0 0 2px green;}
                 #app-mount .avatarSpeaking_cdc675::after {
                         content: "";
-                        color: transparent;
+                        color: green;
                         background: none;
                         border-left: none;
                         padding: 0;
