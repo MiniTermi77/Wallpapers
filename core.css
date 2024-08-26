@@ -270,6 +270,12 @@
                 #app-mount .button_f67531[aria-label="Disconnect"] {background-color: var(--primary3-colour)!important;}
                 #app-mount .button_f67531[aria-label="Disconnect"]:hover {background-color: var(--primary2-colour)!important;}
 
+               /*voz mio*/
+               #app-mount .codeRedemptionRedirect-1wVR4b,
+               #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+               #app-mount .inset-3sAvek {
+               	background-color: var(--background-tertiary);
+	               border: none;
             /*Live Feed*/
                 #app-mount .root_dd069c, 
                 #app-mount .callContainer_d880dc {
