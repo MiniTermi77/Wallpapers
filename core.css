@@ -279,7 +279,7 @@
                 #app-mount .avatarSpeaking_cdc675::after {
                     content: ":";
 
-                    background-image: linear-gradient(to right, var(--primary2-colour), rgba(0,0,0,0));
+                    background-image: linear-gradient(to right, var(--primary2-colour), rgba(0,0,0,0.5));
                     padding: 0 120px 11px 0;
                     border-left: 5px solid var(--primary1-colour);
 
