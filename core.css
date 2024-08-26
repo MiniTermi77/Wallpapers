@@ -270,24 +270,25 @@
                 #app-mount .button_f67531[aria-label="Disconnect"] {background-color: var(--primary3-colour)!important;}
                 #app-mount .button_f67531[aria-label="Disconnect"]:hover {background-color: var(--primary2-colour)!important;}
 
-            /*VC User*/
-                #app-mount .avatarSpeaking_cdc675 { 
-                   box-shadow: 0 0 0 2px var(--primary1-colour); 
-               }
+           /*VC User*/
+                #app-mount .list_a478e5 { padding-left: 10px; }
+                #app-mount .userAvatar_ac3629 { margin-left: 15px; }
 
-               #app-mount .avatarSpeaking_cdc675::after {
-                   content: "";
-                   color: var(--primary1-colour); /* Cambia el color a primario */
-    
-                   background-image: linear-gradient(to right, var(--primary1-colour), var(--primary1-colour)); /* Color primario en el gradiente */
-                   padding: 0 120px 11px 0;
-                   border-left: 5px solid var(--primary1-colour); /* Borde en color primario */
-    
-                   position: relative;
-                   left: -15px;
 
-                   z-index: 1; /* Asegura que esté por delante */
-               }
+                #app-mount .avatarSpeaking_cdc675 {box-shadow: 0 0 0 2px var(--primary1-colour);}
+                #app-mount .avatarSpeaking_cdc675::after {
+                    content: ":";
+                    color: red; 
+
+                    background-image: linear-gradient(to right, var(--primary2-colour), rgba(0,0,0,0));
+                    padding: 0 120px 11px 0;
+                    border-left: 5px solid var(--primary1-colour);
+
+                    position: relative;
+                    left: -15px;
+
+                    z-index: -1;
+                }
 
 
                 #app-mount .voiceUser_cdc675 .content_cdc675:hover {background-color: transparent;}
