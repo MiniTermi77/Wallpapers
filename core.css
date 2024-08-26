@@ -253,7 +253,7 @@
             /*VC Info*/
                 #app-mount .container_b2ca13,
                 #app-mount .container_adcaac {
-                    background-color: transparent;
+                    background-color: (--primary3-colour);
                 }
 
                 #app-mount .panels_a4d4d9 .flex_bba380 .button_f67531,
@@ -272,19 +272,19 @@
 
                /*voz mio*/
                /* Voice Channel: User Speaking */
-.sidebar_e031be .list__02208:not(.listCollapse_f47b82) .voiceUser__629a5 .avatarSpeaking_f239de:before {
-	content: "";
-	background: linear-gradient(to right, #43B58140 18%, transparent 22%);
-	position: absolute;
-	height: 24px;
-	left: 0px;
-	width: 196px;
-	z-index: -1;
-}
-.sidebar_e031be .list__02208 .voiceUser__629a5 .avatarSpeaking_f239de,
-.sidebar_e031be .list__02208 .voiceUser__629a5 .collapsed_ec1cfb .avatarSpeaking_f239de {
-	box-shadow: inset 0 0 0 1.5px var(--status-positive-background),inset 0 0 0 2px var(--background-primary);
-}
+		.sidebar_e031be .list__02208:not(.listCollapse_f47b82) .voiceUser__629a5 .avatarSpeaking_f239de:before {
+			content: "";
+			background: linear-gradient(to right, #00FF00 99%, transparent 99%);
+			position: absolute;
+			height: 24px;
+			left: 1px;
+			width: 196px;
+			z-index: -1;
+		}
+		.sidebar_e031be .list__02208 .voiceUser__629a5 .avatarSpeaking_f239de,
+		.sidebar_e031be .list__02208 .voiceUser__629a5 .collapsed_ec1cfb .avatarSpeaking_f239de {
+			box-shadow: inset 0 0 0 1.5px var(--status-positive-background),inset 0 0 0 2px var(--background-primary);
+		}
             /*Live Feed*/
                 #app-mount .root_dd069c, 
                 #app-mount .callContainer_d880dc {
