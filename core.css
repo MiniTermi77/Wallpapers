@@ -297,7 +297,7 @@
                     padding-right: 5px
                 }
                 #app-mount .voiceUser_cdc675:hover {
-                    background-color: var(--secondary1-colour); 
+                    background-color: red; 
                     border-radius: 2px; margin-left: 20px;
                 }
 
