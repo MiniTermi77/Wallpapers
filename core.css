@@ -271,11 +271,20 @@
                 #app-mount .button_f67531[aria-label="Disconnect"]:hover {background-color: var(--primary2-colour)!important;}
 
                /*voz mio*/
-               #app-mount .codeRedemptionRedirect-1wVR4b,
-               #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
-               #app-mount .inset-3sAvek {
-               	background-color: var(--background-tertiary);
-	               border: none;
+               /* Voice Channel: User Speaking */
+.sidebar_e031be .list__02208:not(.listCollapse_f47b82) .voiceUser__629a5 .avatarSpeaking_f239de:before {
+	content: "";
+	background: linear-gradient(to right, #43B58140 18%, transparent 22%);
+	position: absolute;
+	height: 24px;
+	left: 0px;
+	width: 196px;
+	z-index: -1;
+}
+.sidebar_e031be .list__02208 .voiceUser__629a5 .avatarSpeaking_f239de,
+.sidebar_e031be .list__02208 .voiceUser__629a5 .collapsed_ec1cfb .avatarSpeaking_f239de {
+	box-shadow: inset 0 0 0 1.5px var(--status-positive-background),inset 0 0 0 2px var(--background-primary);
+}
             /*Live Feed*/
                 #app-mount .root_dd069c, 
                 #app-mount .callContainer_d880dc {
