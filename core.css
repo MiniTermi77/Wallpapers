@@ -270,30 +270,37 @@
                 #app-mount .button_f67531[aria-label="Disconnect"] {background-color: var(--primary3-colour)!important;}
                 #app-mount .button_f67531[aria-label="Disconnect"]:hover {background-color: var(--primary2-colour)!important;}
 
-          /* VC User */
+            /*VC User*/
                 #app-mount .list_a478e5 { padding-left: 10px; }
                 #app-mount .userAvatar_ac3629 { margin-left: 15px; }
 
-                #app-mount .avatarSpeaking_cdc675 {box-shadow: 0 0 0 2px #00FF00;} /* Color verde para la iluminación */
+
+                #app-mount .avatarSpeaking_cdc675 {box-shadow: 0 0 0 2px green;}
+                #app-mount .avatarSpeaking_cdc675::after {
+                        content: "";
+                        color: transparent;
+                        background: none;
+                        border-left: none;
+                        padding: 0;
+               }
+
+                    position: relative;
+                    left: -15px;
+
+                    z-index: -1;
+                }
 
                 #app-mount .voiceUser_cdc675 .content_cdc675:hover {background-color: transparent;}
                 #app-mount .voiceUser_cdc675 {
-                   transition: margin 0.2s; 
-                   transition-timing-function: ease-in-out; 
-                   margin-left: 0; 
-                   padding-right: 5px;
-               }
+                    transition: margin 0.2s; 
+                    transition-timing-function: ease-in-out; 
+                    margin-left: 0; 
+                    padding-right: 5px
+                }
                 #app-mount .voiceUser_cdc675:hover {
-                   background-color: var(--secondary1-colour); 
-                   border-radius: 2px; 
-                   margin-left: 20px;
-               }
-
-               /* Eliminar iluminación en el nombre del usuario */
-                #app-mount .avatarSpeaking_cdc675::after {
-                   content: none;
-               }
-
+                    background-color: var(--secondary1-colour); 
+                    border-radius: 2px; margin-left: 20px;
+                }
 
             /*Live Feed*/
                 #app-mount .root_dd069c, 
